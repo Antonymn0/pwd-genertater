@@ -1,0 +1,161 @@
+/*-- Style sheet for passwpord generator app by Antony mn --*/
+
+*{
+float: none;
+max-width: 100%;
+overflow: hidden;
+position: relative;
+}
+
+body{
+    background-color: #3B3B98;
+    font-family: 'Muli', sans-serif;
+    color: #fff;
+    display: flex;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    width: 100%;
+}
+#content-wrap{
+	background-color: #23235B;
+    width: 45%;
+    height: auto;
+    margin: 1% auto;
+    max-width: 100%;  
+     display: flex;
+      border-radius: 5px;
+        box-shadow: 1.2px 1.2px 1.2px 1.2px  teal;
+}
+.content{
+   padding:20px;
+   width: 80%;
+   margin: auto;
+   max-width: 100%;
+    
+}
+h1{
+	font-size: 17pt;
+}
+#result {
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #fefefe;
+    font-size: 16px;
+    font-weight: ;
+    width: 90%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.copy {
+   
+   height: 30px;
+  }
+  .copy h6 {
+      background-color: #2D2D6E;
+      font-size: 7pt;
+      margin:3px 2px 2px ;
+      float: right;
+      border: 1px solid #343475;
+      border-radius: 10px;
+      padding-left: 6px;
+      padding-right: 6px;
+      cursor: pointer;
+  }
+  .copy span {
+      visibility: hidden ;
+      z-index:1;
+      margin-left: 60%;
+      opacity: 0.5;
+      transition: opacity 0.3s;
+      background-color:
+  }
+  .copy span:onmouseout{
+      visibility: hidden;
+      transition: 0.3s;
+      
+  }
+#settings {
+    margin: 5px 0 15px 0;
+    padding-top: 15px;
+    border-top: 1px solid #233860;
+}
+.settings{
+	width: 90%;
+    max-width: 100%;
+	line-height: 33px;
+   
+}
+.settings span {
+    float: right;
+}
+#settings  span label{
+	width:;
+    padding-right: 10px;
+
+}
+#generate {
+	background-color: #3B3B98;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    width: 80%;
+    padding: 10px;
+	border-radius: 5px;
+    border: none;
+    margin: auto;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+#generate:hover {
+    transform: scale(1.02);
+    transition: transform .2s;
+    
+}
+/*--- media queries ---   */
+
+@media screen and (max-width: 800px) { 
+ #content-wrap {
+       width: 70%;
+ margin: 2% auto 2% auto;
+ }
+ h1{
+    visibility: visible;
+}
+  h2 {
+      display: none;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+   #content-wrap {
+       width: 60%;
+       margin: 2% auto 2% auto 
+    
+}
+@media screen and (max-width: 500px) {
+   #content-wrap {
+       width: 95%;
+       margin: 2% auto 2% auto;
+
+    } 
+   .content {
+       padding-top: 0;
+   } 
+h1{
+    font-size: 20pt;
+}
+   h2 {
+    width: 100%;
+    
+    line-height: 30px;
+    padding: clear;
+    visibility: visible;
+   }
+}
+
+
+
+
+
